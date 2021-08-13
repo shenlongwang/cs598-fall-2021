@@ -8,7 +8,7 @@
 #   video: "https://shenlong.web.illinois.edu/"
 #   notes: "https://shenlong.web.illinois.edu/"
   readings:
-    - Sünderhauf et al., <a href="https://arxiv.org/pdf/1804.06557.pdf" target="_blank">The Limits and Potentials of Deep Learning for Robotics</a>
+    # - Sünderhauf et al., <a href="https://arxiv.org/pdf/1804.06557.pdf" target="_blank">The Limits and Potentials of Deep Learning for Robotics</a>
   logistics:
 
 - date: 8/27
@@ -86,10 +86,10 @@
  #  video: "https://shenlong.web.illinois.edu/"
  #  notes: "https://shenlong.web.illinois.edu/"
   readings:
-    - Park et al., <a href="https://arxiv.org/pdf/1901.05103.pdf" target="_blank"> DeepSDF Learning Continuous Signed Distance Functions for Shape Representation</a>
-    - Hornung et al., <a href="https://static.springer.com/sgw/documents/1388515/application/pdf/10-5.pdf" target="_blank"> OctMap An Efficient Probabilistic 3D Mapping Framework Based on Octrees</a>
-    - Qi et al., <a href="https://arxiv.org/pdf/1706.02413.pdf" target="_blank"> PointNet++ Deep Hierarchical Feature Learning on Point Sets in a Metric Space</a>
+    - <b>[R]</b> Park et al., <a href="https://arxiv.org/pdf/1901.05103.pdf" target="_blank"> DeepSDF Learning Continuous Signed Distance Functions for Shape Representation</a>
+    - <b>[R]</b> Hornung et al., <a href="https://static.springer.com/sgw/documents/1388515/application/pdf/10-5.pdf" target="_blank"> OctMap An Efficient Probabilistic 3D Mapping Framework Based on Octrees</a>
   logistics:
+    <span class="deadline">Paper reviewing starts from this class. Submit reviews for papers starting with <b>[R]</b> </span>
 
 - date: 9/17
   lecturer: Shenlong
@@ -104,8 +104,8 @@
   readings:
     - Factor Graphics for Robot Perception, <a href="http://www.cs.cmu.edu/~kaess/pub/Dellaert17fnt.pdf" target="_blank">Chapter 1, 2</a>
     - Ortiz et al., <a href="https://gaussianbp.github.io/" target="_blank">A visual introduction to Gaussian Belief Propagation</a>
-    - Krahenbuhl et al., <a href="http://graphics.stanford.edu/projects/densecrf/densecrf.pdf" target="_blank">Efficient Inference in Fully Connected CRFs with Gaussian Edge Potentials</a>
-    - Davison et al., <a href="https://arxiv.org/pdf/1910.14139.pdf" target="_blank">FutureMapping 2 - Gaussian Belief Propagation for Spatial AI</a>
+    - <b>[R]</b> Krahenbuhl et al., <a href="http://graphics.stanford.edu/projects/densecrf/densecrf.pdf" target="_blank">Efficient Inference in Fully Connected CRFs with Gaussian Edge Potentials</a>
+    - <b>[R]</b> Davison et al., <a href="https://arxiv.org/pdf/1910.14139.pdf" target="_blank">FutureMapping 2 - Gaussian Belief Propagation for Spatial AI</a>
   logistics:
     <span class="deadline">Presentation assignments out (11:59pm, Fri 9/17)</span>
 
@@ -120,8 +120,8 @@
  #  notes: "https://shenlong.web.illinois.edu/"
   readings:
     - Probabilistic Robotics, <a href="http://robots.stanford.edu/probabilistic-robotics/" target="_blank">Chap 2, 3, 4</a>
-    - Delleart et al. <a href="https://www.cc.gatech.edu/~dellaert/ftp/Dellaert99icra.pdf" target="_blank">Monte Carlo Localization for mobile robots,</a>
-    - Bloesch et al. <a href="http://www.roboticsproceedings.org/rss08/p03.pdf" target="_blank">State Estimation for Legged Robots - Consistent Fusion of Leg Kinematics and IMU</a>
+    - <b>[R]</b> Delleart et al. <a href="https://www.cc.gatech.edu/~dellaert/ftp/Dellaert99icra.pdf" target="_blank">Monte Carlo Localization for mobile robots,</a>
+    - <b>[R]</b> Bloesch et al. <a href="http://www.roboticsproceedings.org/rss08/p03.pdf" target="_blank">State Estimation for Legged Robots - Consistent Fusion of Leg Kinematics and IMU</a>
   logistics:
 
 
@@ -138,52 +138,71 @@
  #  notes: "https://shenlong.web.illinois.edu/"
   readings:
     - Probabilistic Robotics, <a href="http://robots.stanford.edu/probabilistic-robotics/" target="_blank">Ch. 9</a>
-    - Sarlin et al., <a href="https://arxiv.org/pdf/1812.03506.pdf" target="_blank">From Coarse to Fine Robust Hierarchical Localization at Large Scale</a>
-    - Fab-map
-    - Lost!
-    - Learning to localize with LiDAR intensity images
+    - <b>[R]</b> Sarlin et al., <a href="https://arxiv.org/pdf/1812.03506.pdf" target="_blank">From Coarse to Fine Robust Hierarchical Localization at Large Scale</a>
+    - <b>[R]</b> Levinson et al., <a href="http://driving.stanford.edu/papers/ICRA2010.pdf" target="_blank">Robust vehicle localization in urban environments using probabilistic maps</a>
+    - <b>[R]</b> Barsan et al., <a href="https://arxiv.org/abs/2012.10902" target="_blank">Learning to Localize Using a LiDAR Intensity Map</a>
   logistics:
     <span class="deadline">Project Proposal due (11:59pm, Fri 9/24)</span>
 
 - date: 9/29
   lecturer: TBD
   title: >
-    <strong>Spatial Perception: Visual Odometry and SLAM</strong><br />
-    - Visual Odometry<br />
-    - Direct and Indrect Methods<br />
-    - Loop Closure
+    <strong>Spatial Perception: SLAM</strong><br />
+    - RGBD and LiDAR SLAM
  #  slides: "https://shenlong.web.illinois.edu/"
  #  video: "https://shenlong.web.illinois.edu/"
  #  notes: "https://shenlong.web.illinois.edu/"
   readings:
-    - KinectFusion
-    - gMapping
-    - DTAM
-    - OrbSLAM
-    - CodeMapping
-    - (Optional) Past, Present, and Future of Simultaneous Localization And Mapping
+    - <b>[R]</b> Newcombe et al., <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/ismar2011.pdf" target="_blank">KinectFusion Real-Time Dense Surface Mapping and Tracking</a>
+    - <b>[R]</b> Grisetti et al., <a href="https://openslam-org.github.io/gmapping.html" target="_blank"> Improved Techniques for Grid Mapping with Rao-Blackwellized Particle Filters</a>
+    - Cadena et al., <a href="https://arxiv.org/pdf/1606.05830" target="_blank">Past, Present, and Future of Simultaneous Localization And Mapping</a>
   logistics:
 
 - date: 10/1
   lecturer: TBD
   title: >
-    <strong>Spatial Perception: Semantic Scene Understanding</strong> <br />
-    - Semantic Segmentation<br />
-    - Semantic Fusion<br />
-    - Map Automation
+    <strong>Spatial Perception: SLAM</strong><br />
+    - Visual SLAM<br />
+    - Visual-Inertial Odometry
  #  slides: "https://shenlong.web.illinois.edu/"
  #  video: "https://shenlong.web.illinois.edu/"
  #  notes: "https://shenlong.web.illinois.edu/"
   readings:
-    - DeepLabv4
-    - DenseCRFs
-    - UNet
-    - Continuous Conv
-    - SemanticFusion
-    - (Optional) Modeling Spatial Knowledge
+    - <b>[R]</b> Newcombe et al., <a href="https://www.doc.ic.ac.uk/~ajd/Publications/newcombe_etal_iccv2011.pdf" target="_blank">DTAM Dense Tracking and Mapping in Real-Time</a>
+    - <b>[R]</b> Mur-Artal et al., <a href="https://arxiv.org/pdf/1610.06475.pdf" target="_blank">ORB-SLAM2 an Open-Source SLAM System for Monocular, Stereo and RGB-D Cameras</a>
+    - Cadena et al., <a href="https://arxiv.org/pdf/1606.05830" target="_blank">Past, Present, and Future of Simultaneous Localization And Mapping</a>
   logistics:
 
 - date: 10/6
+  lecturer: TBD
+  title: >
+    <strong>Spatial Perception: Semantic Scene Understanding</strong> <br />
+    - Image Segmentation
+ #  slides: "https://shenlong.web.illinois.edu/"
+ #  video: "https://shenlong.web.illinois.edu/"
+ #  notes: "https://shenlong.web.illinois.edu/"
+  readings:
+    - <b>[R]</b> Ronneberger et al., <a href="https://arxiv.org/abs/1505.04597" target="_blank">U-Net Convolutional Networks for Biomedical Image Segmentation</a>
+    - <b>[R]</b> Zhao et al., <a href="https://openaccess.thecvf.com/content_cvpr_2017/papers/Zhao_Pyramid_Scene_Parsing_CVPR_2017_paper.pdf" target="_blank">Pyramid Scene Parsing Network</a>
+  logistics:
+
+- date: 10/8
+  lecturer: TBD
+  title: >
+    <strong>Spatial Perception: Semantic Scene Understanding</strong> <br />
+    - 3D Segmentation<br />
+    - Semantic Fusion
+ #  slides: "https://shenlong.web.illinois.edu/"
+ #  video: "https://shenlong.web.illinois.edu/"
+ #  notes: "https://shenlong.web.illinois.edu/"
+  readings:
+    - <b>[R]</b> McCormac et al., <a href="https://arxiv.org/abs/1609.05130" target="_blank">SemanticFusion Dense 3D Semantic Mapping with Convolutional Neural Networks</a>
+    - <b>[R]</b> Qi et al., <a href="https://arxiv.org/pdf/1706.02413.pdf" target="_blank"> PointNet++ Deep Hierarchical Feature Learning on Point Sets in a Metric Space</a>
+    - <b>[R]</b> Wang et al., <a href="https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Deep_Parametric_Continuous_CVPR_2018_paper.pdf" target="_blank">Deep parametric continuous convolutional neural networks</a>
+  logistics:
+
+
+- date: 10/13
   lecturer: TBD
   title: >
     <strong>Object Perception: Detection and Tracking </strong> <br />
@@ -200,7 +219,7 @@
     - Weng et al., <a href="https://arxiv.org/pdf/1907.03961.pdf" target="_blank">3D Multi-Object Tracking A Baseline and New Evaluation Metrics</a>
   logistics:
 
-- date: 10/8
+- date: 10/15
   lecturer: TBD
   title: >
     <strong>Object Perception: Pose Estimation</strong> <br />
@@ -223,92 +242,175 @@
 
 - title: "Module 3: Challenges and Frontiers"
 
-- date: TBD
+- date: 10/20
   lecturer: TBD
   title: >
     <strong>Perception in a Moving World</strong> <br />
-    - Motion Estimation<br />
-    - Motion Forecasting
+    - Motion Estimation
  #  slides: "https://shenlong.web.illinois.edu/"
  #  video: "https://shenlong.web.illinois.edu/"
  #  notes: "https://shenlong.web.illinois.edu/"
   readings:
     - Lucas-Kanade
     - RAFT
+  logistics:
+
+- date: 10/22
+  lecturer: TBD
+  title: >
+    <strong>Perception in a Moving World</strong> <br />
+    - Motion Forecasting
+ #  slides: "https://shenlong.web.illinois.edu/"
+ #  video: "https://shenlong.web.illinois.edu/"
+ #  notes: "https://shenlong.web.illinois.edu/"
+  readings:
     - Social-LSTM
     - LaneGCN
     - Long-term Human Motion Prediction with Scene Context
   logistics:
 
-- date: TBD
+- date: 10/27
   lecturer: TBD
   title: >
     <strong>Perception in an Open World</strong> <br />
-    - Open-set Perception<br />
-    - Continual / Life-long Learning
+    - Open-set Perception
  #  slides: "https://shenlong.web.illinois.edu/"
  #  video: "https://shenlong.web.illinois.edu/"
  #  notes: "https://shenlong.web.illinois.edu/"
   readings:
     - Towards Open World Recognition
     - Identifying Unknown Instances for Autonomous Driving
+  logistics:
+
+- date: 10/29
+  lecturer: TBD
+  title: >
+    <strong>Perception in an Open World</strong> <br />
+    - Continual / Life-long Learning
+ #  slides: "https://shenlong.web.illinois.edu/"
+ #  video: "https://shenlong.web.illinois.edu/"
+ #  notes: "https://shenlong.web.illinois.edu/"
+  readings:
     - Learning without Forgetting
     - Learning to Look Around Intelligently Exploring Unseen Environments for Unknown Tasks. Dinesh Jayaraman, Kristen Grauman (2017)
   logistics:
 
-
 - date: TBD
+  title: "Guest Lectures"
+
+- date: 11/3
   lecturer: TBD
   title: >
     <strong>Perception and Action</strong> <br />
-    - Active Perception<br />
-    - Learning to perceive for act <br />
+    - Active Perception
  #  slides: "https://shenlong.web.illinois.edu/"
  #  video: "https://shenlong.web.illinois.edu/"
  #  notes: "https://shenlong.web.illinois.edu/"
   readings:
     - Interactive Perception Leveraging Action in Perception and Perception in Action
     - The Curious Robot Learning Visual Representations via Physical Interactions
+  logistics:
+
+- date: 11/5
+  lecturer: TBD
+  title: >
+    <strong>Perception and Action</strong> <br />
+    - Learning to perceive with action goals <br />
+ #  slides: "https://shenlong.web.illinois.edu/"
+ #  video: "https://shenlong.web.illinois.edu/"
+ #  notes: "https://shenlong.web.illinois.edu/"
+  readings:
     - Neural Topological SLAM
     - Learning to Evaluate Perception Models Using Planner-Centric Metrics
   logistics:
 
-- date: TBD
+- date: 11/10
   lecturer: TBD
   title: >
     <strong>Perception and Simulation</strong> <br />
-    - Sim2Real<br />
     - Realistic Simulation<br />
-    - Content Creation for Simulation
+    - Sim2Real
  #  slides: "https://shenlong.web.illinois.edu/"
  #  video: "https://shenlong.web.illinois.edu/"
  #  notes: "https://shenlong.web.illinois.edu/"
   readings:
     - Carla, AirSim, AI-Habitat, iGibson, Replica
     - Cycada
+  logistics:
+
+- date: 11/12
+  lecturer: TBD
+  title: >
+    <strong>Perception and Simulation</strong> <br />
+    - Content Creation for Simulation
+ #  slides: "https://shenlong.web.illinois.edu/"
+ #  video: "https://shenlong.web.illinois.edu/"
+ #  notes: "https://shenlong.web.illinois.edu/"
+  readings:
     - LiDARSim, Nerf
     - Paired Open-Ended Trailblazer (POET) Endlessly Generating Increasingly Complex and Diverse Learning Environments and Their Solutions
   logistics:
 
-- date: TBD
+- date: 11/17
+  lecturer: TBD
+  title: >
+    <strong>Multi-Modal Perception</strong> <br />
+    - Multi-sensor Perception
+ #  slides: "https://shenlong.web.illinois.edu/"
+ #  video: "https://shenlong.web.illinois.edu/"
+ #  notes: "https://shenlong.web.illinois.edu/"
+  readings:
+    - Continuous Fusion
+    - Visual Audio Navigation
+    - Vision and Touch
+  logistics:
+
+- date: 11/19
   lecturer: TBD
   title: >
     <strong>Perception with Guarantees</strong> <br />
-    - Uncertainty Modeling<br />
+    - Uncertainty Modeling
+ #  slides: "https://shenlong.web.illinois.edu/"
+ #  video: "https://shenlong.web.illinois.edu/"
+ #  notes: "https://shenlong.web.illinois.edu/"
+  readings:
+    - What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision?
+    - Introduction to Uncertainty in Deep Learning
+  logistics:
+
+- date: 11/24
+  lecturer: TBD
+  title: >
+    <strong>Perception with Guarantees</strong> <br />
     - Certifiable Perception<br />
     - Safety-aware Perception
  #  slides: "https://shenlong.web.illinois.edu/"
  #  video: "https://shenlong.web.illinois.edu/"
  #  notes: "https://shenlong.web.illinois.edu/"
   readings:
-    - What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision?
     - TEASER Fast and Certifiable Point Cloud Registration
-    - Introduction to Uncertainty in Deep Learning
+    - Explaining and Harnessing Adversarial Examples
+    - Robust Physical-World Attacks on Deep Learning Visual Classification
+  logistics:
+
+- date: 11/26
+  lecturer: TBD
+  title: >
+    <strong>Perception with Guarantees</strong> <br />
+    - Safety-aware Perception
+ #  slides: "https://shenlong.web.illinois.edu/"
+ #  video: "https://shenlong.web.illinois.edu/"
+ #  notes: "https://shenlong.web.illinois.edu/"
+  readings:
     - Explaining and Harnessing Adversarial Examples
     - Robust Physical-World Attacks on Deep Learning Visual Classification
   logistics:
 
 - title: "Module 4: Final Project Presentations"
 
-- date: 4/30
-  title: "Project presentations (NSH attrium, 2:30-5:30 pm)"
+
+- date: 12/3
+  title: "No class, working on final presentaionts"
+
+- date: 12/8
+  title: "Final presentations (2pm to 4pm)"
