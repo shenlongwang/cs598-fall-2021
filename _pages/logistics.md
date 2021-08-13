@@ -9,116 +9,47 @@ title: Logistics
 
 ***
 
-### Textbooks
+### Prerequisites
 
-The required textbook for this class is (note that the material of the class goes beyond this book):
-- Daphne Koller and Nir Friedman, [Probabilistic Graphical Models: Principles and Techniques](http://www.amazon.com/Probabilistic-Graphical-Models-Principles-Computation/dp/0262013193/ref=sr_1_1?ie=UTF8&s=books&qid=1250711756&sr=8-1){:target="\_blank"}.
+Students should have a basic understanding of concepts in artificial intelligence (e.g., CS 440), vision (e.g., CS 543), and preferably machine learning (e.g., CS 446). You should be engaged in or interested in research in at least one of the robot perception topics. If you are not sure whether you meet the prerequisites, talk to the instructor during office hours.
 
-We will also be using excerpts from the following work, which you do not need to purchase:
-- Michael I. Jordan, **An Introduction to Probabilistic Graphical Models**, in preparation.<br/>
-Copies of certain chapters will be made available to students taking the class.
-
-Optional:
-- Kevin Murphy, **Machine Learning: A Probabilistic Perspective**.
+### Recommended Textbooks
+We will not follow a specific textbook, but here are some recommended books that you can consult:
+- Sebastian Thrun, Wolfram Burgard, Dieter Fox [Probabilistic Robotics](http://www.probabilistic-robotics.org/){:target="\_blank"}.
+- Richard Szeliski [Computer Vision: Algorithms and Applications, 2nd ed.](http://szeliski.org/Book/){:target="\_blank"}. Draft available online.
+- Tim Barfoot [State Estimation for Robotics](http://asrl.utias.utoronto.ca/~tdb/){:target="\_blank"}. Available online.
+- Frank Dellaert and Micheal Kaess [Factor Graphs for Robot Perception](https://www.ri.cmu.edu/publications/factor-graphs-for-robot-perception/){:target="\_blank"}. Available online.
+- Ian Goodfellow, Yoshua Bengio, Aaron Courville [Deep Learning](https://www.deeplearningbook.org/){:target="\_blank"}. Available online.
+- Kris Hauser [Robotic Systems](http://motion.cs.illinois.edu/RoboticSystems/){:target="\_blank"}. Draft available online.
 
 ***
 
 ### Grading
 
-The class requirements include brief reading summaries, scribe notes for 1 lecture, 4 problem sets, and a project.
-This is a PhD level course, and by the end of this class you should have a good understanding of the basic methodologies in probabilistic graphical models, and be able to use them to solve real problems of modest complexity.
-The grading breakdown is as follows:
-
-- Participation (4%)
-- Scribe Duties (10%)
-- Homework Assignments (40%)
-- Final Project (46%)
+Tentative grading scheme is as follows:
+- **Participation (10%)**. Participation in in-class discussion and on Piazza.
+- **Paper Presentations (20%)**. Presenting 1-2 research topics in class. More details see [here](/reviews).
+- **Paper Reviews (20%)**. Writing reviews for research papers. More details see [here](/reviews)
+- **Final Project (50%)**. More details see [here](/project)
 
 *Note that this class does not have any tests or exams.*
 
 ***
+### Acccommodations
 
-### Participation
+To obtain disability-related academic adjustments and/or auxiliary aids, students should contact both the instructor and the Disability Resources and Educational Services (DRES) as soon as possible. You can contact DRES at 1207 S. Oak Street, Champaign, IL 61820, (217) 333-1970, or via email at *disability@illinois.edu*.
 
-We appreciate everyone being actively involved in the class!
-There are several ways of earning participation credit, which will be capped at 4%:
-- **Piazza participation:** The top ~20 contributors to Piazza will get 3.5%; others will get credit in proportion to the participation of the ~20th person. (To prevent abuse of the system, not all contributions are counted and instructors hold the right to determine to count contributions as positive or negative.)
-- **Completing mid-semester evaluation:** Around the middle of the semester, we will send out a survey to help us understand how the course is going, and how we can improve. Completing it is worth 0.5%.
-- **Karma point:** Any other act that improves the class, which a 10-708 TA or instructor notices and deems worthy: 1%.
-
-### Scribe Duties
-
-Each student is required to scribe for a small number of lectures (most likely just 1).
-Most lectures will have 3-4 students acting as scribes, and they should work as a team.
-During your assigned lectures, you are to take detailed notes in collaboration with your fellow scribes.
-After the lecture, the scribe team is to convert their notes into a written format (see [the guidelines](https://github.com/sailinglab/pgm-spring-2019/tree/master/_posts){:target="\_blank"}).
-The notes must be detailed and thorough, and must be submitted through a pull request on GitHub within 1 week after the lecture.
-TAs will audit and review the submitted notes, request changes if necessary, and will eventually approve the notes and add them to the course page.
-
-As long as your scribe notes are of sufficient standard, you will be awarded full credit for scribe duties.
-If your notes have errors or are otherwise not up to standard, we will inform you and give you a chance to correct them.
-You will receive zero credit if you fail to submit your notes.
 
 ***
+### Academic Integrity
+All work that you submit should be written solely by you and your group, and you should cite any significant sources of ideas. If any part of your project builds upon efforts before the semester (e.g., your ongoing research project), be sure to discuss with the instructor in advance. Plagiarism and other integrity violations will go on record at the university, and the minimum penalty will be a zero for the entire assignment. See the [student code](https://studentcode.illinois.edu/) for more information on what constitutes an academic integrity violation.
 
-### Homework Assignments
 
-There will be 4 homework assignments over the course of the semester.
-These assignments may contain material that has been covered by published papers and webpages.
-It is a graduate class and we expect students to solve the problems themselves rather than search for answers.
+### Resources
 
-**The students are required to typeset homework solutions using $$\LaTeX$$ and the provided template.**
-
-#### Collaboration Policy
-
-**Homework assignments must be done individually:** each student must hand in their own answers.
-However, it is acceptable to collaborate when figuring out answers and to help each other solve the problems.
-We will be assuming that, as participants in a graduate course, you will be taking the responsibility to make sure you personally understand the solution arising from such collaboration.
-You also must indicate on each homework with whom you have collaborated.
-
-#### Late Policy
-
-You will be allowed **6 total homework late days** without penalty for the entire semester.
-You may be late by up to 6 days on any homework assignment.
-Once those days are used, you will be penalized according to the following policy:
-
-- Homework is worth full credit at the due time on the due date.
-- The allowed late days are counted by day (i.e., each new late day starts at 12:00 am ET).
-- Once the allowed late days are exceeded, the penalty is 50% per late day conted by hour (i.e., 2.0833% per hour).
-- The homework is worth zero credit 48 hours after exceeding the late day limit.
-
-You must turn in at least 3 of the 4 assignments, even if for zero credit, in order to pass the course.
-Please upload your late submissions to [Gradescope](https://www.gradescope.com/courses/36025){:target="\_blank"}.
-
-#### Regrade Policy
-
-If you feel that we have made a mistake in grading your homework, please submit a regrading request on Gradescope and we will consider your request.
-Please note that regrading of a homework may cause your grade to go either up or down.
-
-***
-
-### Final Project
-
-The class project will be carried out in groups of 3 or 4 people, and has four main parts: a proposal, a midway report, a final report, and a poster/oral presentation.
-The project is an integral part of this class, and is designed to be as similar as possible to researching and writing a conference-style paper.
-
-Please see the [project page](https://sailinglab.github.io/pgm-spring-2019/project/) for more information about the final project.
-
-***
-
-### Auditing
-
-To satisfy the auditing requirement, you must do *one* of the following:
-
-1. **Submit three homeworks** and receive at least 75% of the points on each one.
-2. **Do a class project** which must address a topic related to machine learning and must be something that you have started while taking this class (i.e. it can't be your previous work).
-You will need to submit a project proposal with everyone else, and present the project with everyone.
-However, you don't need to submit a milestone or final paper.
-You must get at least 80% on the final presentation part of the project.
-
-*If you plan to audit the class, please notify instructors that you are auditing and specify which requirement you plan to fulfill.*
-
-### Listeners outside CMU
-
-Please feel free to reuse any of these course materials that you find of use in your own courses.
-We ask that you retain any copyright notices, and include a written notice indicating the source of any materials you use.
+There are also several related robotics/vision courses both within and outside Illinois, whose material is available online:
+- [CS598 3D Vision](https://courses.engr.illinois.edu/cs598dwh/fa2021) by Derek Hoeim.
+- [CS498 Mobile Robotics](http://daslab.illinois.edu/courses.html#abe424) by Girish Chowdhary.
+- [CS598 Advanced Computational Topics in Robotics](https://kkhauser.web.illinois.edu/#teaching) by Kris Hauser.
+- [CS598 Autonomous Vehicles](http://luthuli.cs.uiuc.edu/~daf/courses/MAAV-2020/598-2020-home.html) by David Forsyth.
+- [ECE598 Robot Learning](http://saurabhg.web.illinois.edu/teaching/ece598sg/fa2020/) by Saurabh Gupta.

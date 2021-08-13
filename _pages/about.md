@@ -1,23 +1,21 @@
 ---
 layout: about
 permalink: /
-title: <b>P</b>robabilistic <b>G</b>raphical <b>M</b>odels
-description: 10-708 • Spring 2019 • Carnegie Mellon University
-logo: cmu-logo.png
+title: Advanced Topics in <b>R</b>obot <b>P</b>erception
+description: CS-598 • Fall 2021 • University of Illinois Urbana-Champaign
+logo: uiuc-logo.png
 news: true
 ---
 
-Many of the problems in artificial intelligence, statistics, computer systems, computer vision, natural language processing, and computational biology, among many other fields, can be viewed as the search for a coherent global conclusion from local information.
-The probabilistic graphical models framework provides an unified view for this wide range of problems, enables efficient inference, decision-making and learning in problems with a very large number of attributes and huge datasets.
-This graduate-level course will provide you with a strong foundation for both applying graphical models to complex problems and for addressing core research topics in graphical models.
+Perception is the ability to perceive, comprehend, and reason about the surrounding environment. Having a solid perception ability is crucial for autonomous robots to interact with the world. This course aims to offer a holistic understanding of fundamentals and the latest trends in robot perception. We will cover various topics, including sensing techniques, probabilistic state estimation, sensor fusion, SLAM, and learning algorithms. We will also discuss open problems and research frontiers in robot perception, such as perception in dynamic environments, open-world perception, embodiment, sim2real, uncertainty quantification, and perception with provable guarantees. The format of this course will be a mix of lectures, seminar-style discussions, and student presentations. The course will be heavily discussion and project-oriented. Students will be responsible for paper readings, class participation, and completing a hands-on project.
 
 ***
 
-- **Time:** Monday/Wednesday 12:00-1:20 pm
-- **Location:** [Posner Hall 152](https://www.google.com/maps/place/Posner+Hall/@40.4424422,-79.9448675){:target="\_blank"}
-- **Discussion:** [Piazza](https://piazza.com/class/jqh4n6275r82yq){:target="\_blank"}
-- **HW submission:** [Gradescope](https://www.gradescope.com/courses/36025){:target="\_blank"}
-- **Online lectures:** The lectures will be live-streamed through [Panopto](https://scs.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=0f44b4d7-fb4e-49eb-b88d-a9d00125e1b3){:target="\_blank"}, recorded, and made available on [YouTube](https://www.youtube.com/playlist?list=PLoZgVqqHOumTY2CAQHL45tQp6kmDnDcqn){:target="\_blank"}.
-- **Contact:** Students should ask all course-related questions on [Piazza](https://piazza.com/class/jqh4n6275r82yq){:target="\_blank"}, where you will also find announcements. For external enquiries, personal matters, or in emergencies, you can email us at *10708-instructor@cs.cmu.edu*.
+- **Time:** Wednesday/Friday 2:00-3:15 pm
+- **Location:** [Zoom](https://illinois.zoom.us/j/83781372688?pwd=YlJVeTFjdEZsd3B6dlNqM0hSei9kUT09){:target="\_blank"}
+- **Discussion:** [Piazza](https://piazza.com/illinois/fall2021/cs598){:target="\_blank"}
+- **Paper review submission:** [Google Forms](https://forms.gle/3VSzjHX24UWEjheG6){:target="\_blank"}
+- **Online lectures:** The lectures will be live-streamed through [Zoom](https://illinois.zoom.us/j/83781372688?pwd=YlJVeTFjdEZsd3B6dlNqM0hSei9kUT09){:target="\_blank"}, recorded, and made available on [Echo360](https://echo360.org){:target="\_blank"}. Please log in with your institution account.
+- **Contact:** Students should ask all course-related questions on [Piazza](https://piazza.com/illinois/fall2021/cs598){:target="\_blank"}, where you will also find announcements. For external inquiries, personal matters, or in emergencies, you can email me at *shenlong@illinois.edu* (email title starts with **[CS598]**).
 
 ***
