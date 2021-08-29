@@ -12,8 +12,7 @@ footer_text: >
   Template adapted from <a href="https://sailinglab.github.io/pgm-spring-2019/">CMU PGM course</a>.
 
 url:  # the base hostname & protocol for your site
-# baseurl: /teaching/cs598fall21 # the subpath of your site, e.g. /blog/
-baseurl:  # the subpath of your site, e.g. /blog/
+baseurl: /teaching/cs598fall21 # the subpath of your site, e.g. /blog/
 
 # # -----------------------------------------------------------------------------
 # # Social integration

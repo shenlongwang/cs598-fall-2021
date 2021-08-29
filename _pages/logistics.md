@@ -28,9 +28,9 @@ We will not follow a specific textbook, but here are some recommended books that
 
 Tentative grading scheme is as follows:
 - **Participation (10%)**. Participation in in-class discussion and on Piazza.
-- **Paper Presentations (20%)**. Presenting 1-2 research topics in class. More details see [here](/reviews).
-- **Paper Reviews (20%)**. Writing reviews for research papers. More details see [here](/reviews)
-- **Final Project (50%)**. More details see [here](/project)
+- **Paper Presentations (20%)**. Presenting 1-2 research topics in class. More details see [here](/teaching/cs598fall21/presentations).
+- **Paper Reviews (20%)**. Writing reviews for research papers. More details see [here](/teaching/cs598fall21/reviews)
+- **Final Project (50%)**. More details see [here](/teaching/cs598fall21/project)
 
 *Note that this class does not have any tests or exams.*
 
