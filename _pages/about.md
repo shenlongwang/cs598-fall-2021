@@ -15,7 +15,7 @@ Perception is the ability to perceive, comprehend, and reason about the surround
 - **Location:** [Zoom](https://illinois.zoom.us/j/83781372688?pwd=YlJVeTFjdEZsd3B6dlNqM0hSei9kUT09){:target="\_blank"}
 - **Discussion:** [Piazza](https://piazza.com/illinois/fall2021/cs598){:target="\_blank"}
 - **Paper review submission:** [Google Forms](https://forms.gle/3VSzjHX24UWEjheG6){:target="\_blank"}
-- **Online lectures:** The lectures will be live-streamed through [Zoom](https://illinois.zoom.us/j/83781372688?pwd=YlJVeTFjdEZsd3B6dlNqM0hSei9kUT09){:target="\_blank"}, recorded, and made available on [Echo360](https://echo360.org){:target="\_blank"}. Please log in with your institution account.
+- **Online lectures:** The lectures will be live-streamed through [Zoom](https://illinois.zoom.us/j/83781372688?pwd=YlJVeTFjdEZsd3B6dlNqM0hSei9kUT09){:target="\_blank"}, recorded, and made available on [MediaSpace](https://mediaspace.illinois.edu/channel/CS+598+Fall+2021+Advanced+Topics+in+Robot+Perception/){:target="\_blank"}. Please log in with your institution account.
 - **Contact:** Students should ask all course-related questions on [Piazza](https://piazza.com/illinois/fall2021/cs598){:target="\_blank"}, where you will also find announcements. For external inquiries, personal matters, or in emergencies, you can email me at *shenlong@illinois.edu* (email title starts with **[CS598]**).
 
 ***

@@ -41,6 +41,7 @@
     - LiDAR, Radar, Sonar <br />
     - GPS, IMU, Odometer <br />
     - Touch, Tactile, etc
+  slides: "/teaching/cs598fall21/assets/slides/lecture3_sensors.pdf"
  #  slides: "https://shenlong.web.illinois.edu/"
  #  video: "https://shenlong.web.illinois.edu/"
  #  notes: "https://shenlong.web.illinois.edu/"
